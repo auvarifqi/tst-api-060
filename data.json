@@ -1,0 +1,72 @@
+{
+    "threat_data": [
+        {
+            "ThreatID": 1,
+            "ThreatName": "Malware Attack",
+            "ThreatType": "Malware",
+            "ThreatSeverity": 9,
+            "ThreatDescription": "A new strain of ransomware targeting Windows systems.",
+            "ThreatSource": "ThreatIntelFeed"
+        },
+        {
+            "ThreatID": 2,
+            "ThreatName": "Phishing Attempt",
+            "ThreatType": "Phishing",
+            "ThreatSeverity": 7,
+            "ThreatDescription": "Suspicious email with phishing links and attachments.",
+            "ThreatSource": "EmailSecurity"
+        },
+        {
+            "ThreatID": 3,
+            "ThreatName": "DDoS Attack",
+            "ThreatType": "Network",
+            "ThreatSeverity": 8,
+            "ThreatDescription": "Large-scale DDoS attack targeting web servers.",
+            "ThreatSource": "NetworkTraffic"
+        },
+        {
+            "ThreatID": 4,
+            "ThreatName": "SQL Injection",
+            "ThreatType": "Web Application",
+            "ThreatSeverity": 6,
+            "ThreatDescription": "Attempted SQL injection attack on the login page.",
+            "ThreatSource": "WebServerLogs"
+        }
+    ],
+    "data_user": [
+        {
+            "UserID": 1,
+            "Password": "password1"
+        },
+        {
+            "UserID": 2,
+            "Password": "password2"
+        }
+    ],
+    "threat_log": [
+        {
+            "LogID": 1,
+            "ThreatID": 1,
+            "SourceID": 1,
+            "LogDescription": "Detected a new variant of ransomware targeting Windows systems."
+        },
+        {
+            "LogID": 2,
+            "ThreatID": 2,
+            "SourceID": 2,
+            "LogDescription": "Received a phishing email with suspicious attachments."
+        },
+        {
+            "LogID": 3,
+            "ThreatID": 3,
+            "SourceID": 3,
+            "LogDescription": "Observed increased traffic, possible DDoS attack."
+        },
+        {
+            "LogID": 4,
+            "ThreatID": 4,
+            "SourceID": 4,
+            "LogDescription": "Identified an attempted SQL injection attack on the login page."
+        }
+    ]
+}
